@@ -1,0 +1,98 @@
+
+nav {
+  /* line-height: 1; */
+
+   position:sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* bottom: 440px; */
+  
+
+ 
+}
+
+  nav .date {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+    color: black;
+
+    font-family: Monospace;
+    font-size: 140%;
+
+  }
+  nav .button{
+    position:absolute;
+   right:50px;
+    border-color: red;
+    text-shadow: red;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+     font-family: Monospace;
+      font-size: 140%;
+        border-radius: 5px;
+
+    
+  }
+   nav .button1{
+    position:absolute;
+    border-color: green;
+    right:-120px;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    font-family: Monospace;
+      font-size: 140%;
+      border-radius: 5px;
+
+    
+  }
+   .time{
+    color: black;
+    object-fit: scale-down;
+  bottom: 200px;
+    display: flex;
+ 
+  }
+   .time1{
+    color: black;
+    object-fit: scale-down;
+  bottom: 110px;
+    display: flex;
+ 
+  }
+  .time2{
+    color: black;
+    object-fit: scale-down;
+  bottom:10px;
+    display: flex;
+ 
+  }
+  .h{
+    color: green;
+    width: 1130px;
+    position: relative;
+    bottom: 250px;
+  }
+.span1{
+  position:relative;
+  left: 0%;
+}
+.span2{
+  position:relative;
+  left: 75%;
+}
+.span3{
+  position:relative;
+  left: 80%;
+}
+.h1{
+    position: relative;
+    bottom: 150px;
+}
+.h2{
+    position: relative;
+    bottom: 50px;
+}
