@@ -6,7 +6,7 @@
         </div>
       <div class="buttons">
         <button class="button1" @click="start()">{{button}}</button>
-        <button class="button2" @click="onCreateTemps()"> Start new</button>
+        <button class="button2" @click="onCreateTemps()">Start new</button>
       </div>
     </div>
     
